@@ -1,0 +1,14 @@
+bmor	Bombyx mori (domestic silkworm)
+T02817	13465 proteins, 7496 proteins with KOs
+	5697 RNAs, 677 RNAs with KOs
+	Kanehisa Laboratories
+
+linked db	pathway
+	brite
+	module
+	ko
+	genome
+	enzyme
+	ncbi-geneid
+	ncbi-proteinid
+	uniprot

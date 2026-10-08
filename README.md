@@ -1,13 +1,14 @@
 # skills
 
-个人 Agent Skills 目录。日常技能放在这里。需要独立发布的技能另建仓库，例如 [bmori-go-kegg-enrichment](https://github.com/luxiangze/bmori-go-kegg-enrichment)。
+个人 Agent Skills 目录。
 
-Personal agent-skills catalogue for ordinary skills. Skills that need their own release stay in separate repositories.
+Personal agent-skills catalogue.
 
 ## Install
 
 ```bash
 gh skill install luxiangze/skills publish-agent-skill
+gh skill install luxiangze/skills bmori-go-kegg-enrichment
 gh skill install luxiangze/skills --all
 ```
 
@@ -20,7 +21,8 @@ gh skill install luxiangze/skills publish-agent-skill --agent grok --scope user
 ## Skills
 
 - `publish-agent-skill`
+- `bmori-go-kegg-enrichment` — 家蚕 GO/KEGG 富集。KEGG `bmor` 快照取自 2026-09-24 的 REST 接口，使用仍受 [KEGG 条款](https://www.kegg.jp/kegg/legal.html) 约束。
 
 ## License
 
-BSD-3-Clause. See [LICENSE](LICENSE).
+BSD-3-Clause. See [LICENSE](LICENSE). The enrichment skill keeps its own notice at [skills/bmori-go-kegg-enrichment/LICENSE](skills/bmori-go-kegg-enrichment/LICENSE).
