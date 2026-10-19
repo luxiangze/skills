@@ -1,0 +1,4 @@
+interface:
+  display_name: "Slurm RNA-seq 全流程"
+  short_description: "从 S3 样本表到 nf-core 转录组、差异表达和 GO/KEGG/GSEA"
+  default_prompt: "使用 $nfcore-rnaseq-slurm 从指定 RustFS 数据和参考基因组完成转录组、差异表达及富集分析。"
