@@ -1,6 +1,7 @@
 ---
 name: jev-effort-advisor
 description: 用 TypeSafe Jev 辅助选择 AI 模型的推理或思考档位，按任务阶段、材料、成本和耗时偏好给出可追溯建议。适用于“这个任务该用哪档思考”“规划和执行分别怎么选档”等请求；不自动切换模型设置或执行被评估的任务。
+license: BSD-3-Clause
 ---
 
 # Jev 推理档位顾问
