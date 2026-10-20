@@ -1,0 +1,36 @@
+{
+  "model": "jev-latest",
+  "state": {
+    "target_model": "{{TARGET_MODEL}}",
+    "platform": "{{PLATFORM}}",
+    "phase": "{{PHASE}}",
+    "deliverable": "{{DELIVERABLE}}",
+    "task_summary": "{{TASK_SUMMARY}}",
+    "facts": ["{{FACTS}}"],
+    "inferences": [],
+    "unknowns": ["{{UNKNOWNS}}"],
+    "preferences": "{{PREFERENCES}}",
+    "effort_definitions": "{{EFFORT_DEFINITIONS}}",
+    "sources": [{"url": "{{SOURCE_URL}}", "checked_at": "{{CHECKED_AT}}"}]
+  },
+  "questions": {
+    "balanced_current_phase": {
+      "type": "choice",
+      "instructions": "Assuming the user wants a rigorous practical result while balancing token cost and latency, which verified effort setting is appropriate for the phase and deliverable in state? Do not invent benchmarks or undocumented UI mappings.",
+      "criteria": {
+        "{{LABEL_A}}": "{{DEFINITION_A}}",
+        "{{LABEL_B}}": "{{DEFINITION_B}}",
+        "insufficient_information": "The supplied task, preferences or verified mappings do not support selecting a setting."
+      }
+    },
+    "quality_first_review": {
+      "type": "choice",
+      "instructions": "Assuming a one-off final review of the specified deliverable where correctness and thoroughness take priority and extra token cost and latency are acceptable, which verified effort setting is appropriate? This is a conditional judgment, not a measured performance comparison.",
+      "criteria": {
+        "{{LABEL_A}}": "{{DEFINITION_A}}",
+        "{{LABEL_B}}": "{{DEFINITION_B}}",
+        "insufficient_information": "The supplied task, preferences or verified mappings do not support selecting a setting."
+      }
+    }
+  }
+}

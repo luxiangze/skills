@@ -1,0 +1,4 @@
+interface:
+  display_name: "Jev 推理档位顾问"
+  short_description: "Choose reasoning effort with explicit task tradeoffs"
+  default_prompt: "使用 $jev-effort-advisor，根据我的任务、模型和预算偏好，用 Jev 判断适合的推理档位。"
