@@ -33,6 +33,8 @@ gh skill install luxiangze/skills publish-agent-skill --agent grok --scope user
 
 - [`crispr-amplicon-analysis`](skills/crispr-amplicon-analysis/SKILL.md)
 
+- [`obsutil`](skills/obsutil/SKILL.md)
+
 ## License
 
 BSD-3-Clause. See [LICENSE](LICENSE). The enrichment skill keeps its own notice at [skills/bmori-go-kegg-enrichment/LICENSE](skills/bmori-go-kegg-enrichment/LICENSE).
