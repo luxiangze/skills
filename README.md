@@ -29,6 +29,16 @@ gh skill install luxiangze/skills publish-agent-skill --agent grok --scope user
 - `slurm-cluster-usage` — 本集群的作业提交规范：分区、内存硬上限、module 和 Apptainer。
 - `bmori-go-kegg-enrichment` — 家蚕 GO/KEGG 富集。KEGG `bmor` 快照取自 2026-09-24 的 REST 接口，使用仍受 [KEGG 条款](https://www.kegg.jp/kegg/legal.html) 约束。
 
+- [`ccds-research-project-init`](skills/ccds-research-project-init/SKILL.md)
+
+- [`check-subscription-traffic`](skills/check-subscription-traffic/SKILL.md)
+
+- [`crispr-amplicon-analysis`](skills/crispr-amplicon-analysis/SKILL.md)
+
+- [`obsutil`](skills/obsutil/SKILL.md)
+
+- [`ssh-remote-server-access`](skills/ssh-remote-server-access/SKILL.md)
+
 ## License
 
 BSD-3-Clause. See [LICENSE](LICENSE). The enrichment skill keeps its own notice at [skills/bmori-go-kegg-enrichment/LICENSE](skills/bmori-go-kegg-enrichment/LICENSE).

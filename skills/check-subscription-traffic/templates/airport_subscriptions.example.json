@@ -1,0 +1,14 @@
+{
+  "subscriptions": [
+    {
+      "name": "机场 A",
+      "url": "https://example.com/subscription/token-a",
+      "enabled": true
+    },
+    {
+      "name": "机场 B",
+      "url": "https://example.com/subscription/token-b",
+      "enabled": true
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+interface:
+  display_name: "华为云 obsutil"
+  short_description: "使用 obsutil 下载华为云分享数据，支持按样本筛选、断点续传与结果核验"
+  default_prompt: "请使用 $obsutil 检查我的华为云分享链接并生成适合当前系统的下载命令。"
