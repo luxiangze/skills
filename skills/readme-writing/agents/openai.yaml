@@ -1,0 +1,4 @@
+interface:
+  display_name: "交付目录 README"
+  short_description: "面向文件夹收件人编写可独立阅读的内容导览、文件索引和数据说明"
+  default_prompt: "使用 $readme-writing 为这个待交付文件夹编写 README，让收件人知道有哪些内容、去哪里找及如何理解主要文件。"

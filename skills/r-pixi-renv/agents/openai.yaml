@@ -1,0 +1,4 @@
+interface:
+  display_name: "R 环境配置：pixi + pak + renv"
+  short_description: "用 pixi 配置 R，以 pak 安装包并通过 renv 锁定和恢复项目环境"
+  default_prompt: "使用 $r-pixi-renv 检查当前项目，并配置或恢复由 pixi、pak 和 renv 管理的 R 环境。"

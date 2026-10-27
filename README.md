@@ -21,6 +21,8 @@ gh skill install luxiangze/skills publish-agent-skill --agent grok --scope user
 
 ## Skills
 
+- [`r-pixi-renv`](skills/r-pixi-renv/SKILL.md)：使用 pixi 管理 R 运行时，以 pak 安装 R 包，通过 renv 隔离项目库、锁定版本和恢复环境。
+- [`readme-writing`](skills/readme-writing/SKILL.md)：面向收件人的结果目录与数据包 README，提供文件索引、用途说明和可移交的阅读入口。
 - [`nfcore-rnaseq-slurm`](skills/nfcore-rnaseq-slurm/SKILL.md) — RustFS/S3 到 Slurm 上的 nf-core RNA-seq、差异表达、GO/KEGG/GSEA；三个独立阶段。
 - [`jev-effort-advisor`](skills/jev-effort-advisor/SKILL.md) — 用 Jev 按任务阶段与预算偏好选择推理档位，保存可追溯请求和结果。
 - `publish-agent-skill`
