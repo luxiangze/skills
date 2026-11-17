@@ -39,6 +39,8 @@ gh skill install luxiangze/skills publish-agent-skill --agent grok --scope user
 
 - [`ssh-remote-server-access`](skills/ssh-remote-server-access/SKILL.md)
 
+- [`feishu-connect`](skills/feishu-connect/SKILL.md)：用官方 lark-cli 把 Muse 接到飞书，为课题组成员拟定飞书实验日志和组会周报草稿。
+
 ## License
 
 BSD-3-Clause. See [LICENSE](LICENSE). The enrichment skill keeps its own notice at [skills/bmori-go-kegg-enrichment/LICENSE](skills/bmori-go-kegg-enrichment/LICENSE).
