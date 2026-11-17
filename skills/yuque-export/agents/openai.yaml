@@ -1,0 +1,4 @@
+interface:
+  display_name: "语雀知识库导出"
+  short_description: "将语雀知识库导出为 Markdown，保留远程图片并验证本地导出结果"
+  default_prompt: "使用 $yuque-export 将语雀知识库重新导出到指定目录，保留图片原始链接并汇总导出结果。"
